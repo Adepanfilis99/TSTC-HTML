@@ -1,0 +1,259 @@
+
+
+/* LAYOUT FOR ALL PAGES */
+body{
+    min-width: 1080px;
+    max-width:1224px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 20px;
+    line-height: 2em;
+    letter-spacing: 1px;
+    font-family: 'Noto Sans', sans-serif;
+}
+header{
+    background-color:#C1CBC8;
+    border:solid black;
+    font-family: 'Oooh Baby', cursive;
+}
+
+
+/* NAVIGATION */
+nav ul{
+    list-style: none;
+    display: flex ;
+   justify-content:left;
+
+}
+
+nav ul li{
+    padding: 5px;
+}
+
+nav ul li a{
+    background: #0A54A5;
+    color: #FFFFFF;
+    padding: 3px 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+nav a:hover{
+    background-color: #2d66a4
+
+}
+/* IMAGE IN SECTION 1 */
+.anthony{
+    float: right;
+    height: 100px;
+    margin: 0 0 0.5rem 0.5rem;
+    border: solid black;
+    padding: 1px;
+}
+
+
+/* SECTION 1  */
+section{
+    background-color: #CFCFCF;
+    padding: 10px;
+    overflow: auto;
+    border: solid black;
+}
+.section1{
+  margin-left: 30px;
+  padding: 10px;
+  
+}
+/* IG LOGO CENTER PAGE */
+.IG{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* GRID FOR PHOTOS */
+#portfolio{
+    display: grid;
+    grid-template-columns: repeat(4, 250px);
+    column-gap: 50px;
+    row-gap: 50px;
+    background-color: #C1CBC8;
+    padding:15px;
+   
+}
+.col1{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.col2{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.col3{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.col4{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.col5{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.col6{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.col7{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.col8{
+    margin-top: 50px;
+    border: solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+video{
+    padding: 2px;
+    margin-left: 10px;
+    border:10px solid black;
+    border-radius: 10px;
+
+}
+article{
+    background-color: #C1CBC8 ;
+    border-top: solid black;
+    padding-top: 10px;
+    font-weight: 600;
+    
+}
+/* FORM */
+.form{
+    background-color: #C1CBC8;
+    border: 2px solid black;
+    padding: 10px;
+    font-weight: 600;
+}
+
+
+input[type=text], select{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=email], select{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=tel],  select{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+textarea{
+    width: 100%;
+    padding: 15px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 5px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=radio], select{
+    width: 100%;
+
+    display: inline-block;
+    border: 5px solid gray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button[type=submit]{
+  width: 100%;
+  background-color: #0A54A5;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button[type=submit]:hover{
+    background-color: #2d66a4;
+
+}
+.legend{
+    border: 2px solid black;
+    padding: 10px;
+}
+.contact{
+    background-color:#C1CBC8;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: solid black;
+    padding: 10px;
+
+}
+
+
+
+
+
+@media screen and (max-width:400px){
+    body{
+        max-width: 365px;
+        min-width: 255px;
+        margin: auto;
+    } 
+    main{
+        clear: both;
+        columns: 1;
+    }
+    nav ul {
+        display: flex;
+        justify-content: center;
+       flex-direction: column;
+    }
+    #portfolio{
+        display: grid;
+        grid-template-columns: repeat(1,250px);
+    }
+    video{
+        margin-left: 3px;
+    }
+  
+       
+
+}

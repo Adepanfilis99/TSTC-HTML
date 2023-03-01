@@ -1,0 +1,90 @@
+
+<!--SETTING UP PAGE-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Shots By AD</title>
+        <meta name="description" content="A page about to contact Anthony about his photography">
+        <link rel="stylesheet" href="css/styles.css"/>
+    <!---ADD FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <!--STYLETAG-->
+        <style>
+     footer{
+                text-align: center;
+                background-color:grey;
+                border: solid black;
+                overflow: hidden;
+                color: white;
+        
+            }
+
+
+
+        </style>
+</head>
+<body>
+    <header>
+        <!--NAVIGATION IN HEADER-->
+        <h1 style="text-align:center;">How to Reach Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Link to my homepage">Homepage</a></li>
+                    <li><a href="portfolio.html" title="Link to my portfolio">Portfolio</a></li>
+                    <li><a href="gear.html" title="Link to the gear I use">Gear</a></li>
+                    <li><a href="contactme.html" title="Link to my contact page to reach out">Contact Me</a></li>
+                 </ul>  
+            </nav>
+    </header>
+            <!--FORM -->
+             <main>
+                <h1 class="contact" style="text-align:center ;">Set Up a Shoot or Collab</h1>
+                <div class="form">
+                    <form action="contactme.html" method="get">
+                        <label for="firstname">First Name</label>
+                        <input id="firstname" name="firstname" type="text" placeholder="First Name">
+                        <label for="lastname">Last Name</label>
+                        <input id="lastname" name="lastname" type="text" placeholder="Last Name">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="me@example.com">
+                        <label for="phone">Phone Number</label>
+                        <input id="phone" name="phone" type="tel" placeholder="(XXX) XXX-XXXX">
+                        <label for="reason">Write me</label>
+                        <textarea id="reason" name="reason" placeholder="Write here....." type="text" height="300px"></textarea>
+                       <p class="legend">Service</p>
+                        <input type="radio" id="Photoshoot" name="service" value="Photoshoot">
+                        <label for="radio">Photoshoot</label>
+                        <input type="radio" id="Edit Photos" name="service" value="Edit Photos">
+                        <label for="radio">Edit Photos</label>
+                        <input type="radio" id="Video" name="service" value="Video">
+                        <label for="radio">Video</label>
+                        <br>
+                        <br>
+                        <label for="myimage">Attach Images</label>
+                        <input type="file" id="myimage" name="myimage">
+                        <button type="submit">Submit</button>
+                    </form>
+                </div>
+            </main>
+
+         
+
+        <footer>
+
+            <p>&copy;2022-2023-Richard Depanfilis. All rights reserved.</p>
+
+
+        </footer>
+
+
+    </body>
+</html>

@@ -1,0 +1,122 @@
+
+<!--SETTING UP PAGE-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Portfolio</title>
+        <meta name="description" content="A page about Anthony Depanfilis's photography portfolio">
+        <link rel="stylesheet" href="css/styles.css"/>
+    <!---ADD FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <!--STYLETAG-->
+        <style>
+          header{
+            overflow: hidden;
+          }
+          main{
+            overflow: hidden;
+            border: solid black;
+         
+          }
+          footer{
+            text-align: center;
+                background-color:grey;
+                border: solid black;
+                overflow: hidden;
+                color: white;
+          }
+          .article{
+            text-align: center;
+          }
+
+
+        </style>
+</head>
+<body>
+    <header>
+        <h1 style="text-align:center;"> My Portfolio</h1>
+
+        <!--NAVIGATION-->
+            <nav>
+                <ul>
+                    <li><a href="index.html" title="Link to my homepage">Homepage</a></li>
+                    <li><a href="portfolio.html" title="Link to my portfolio">portfolio</a></li>
+                    <li><a href="gear.html" title="Link to the gear I use">Gear</a></li>
+                    <li><a href="contactme.html" title="Link to my contact page to reach out">Contact Me</a></li>
+                 </ul>  
+            </nav>
+    </header>
+    <main>
+        <!--GRID LAYOUT FOR MY IMAGES-->
+    <div id="portfolio">
+        <div class="col1">
+            <img src="images/Carousel.jpg" alt="carousel in Dumbo New York With buildings in the background" width="250px" height="250px" style="max-width:100%;height:auto">
+            <caption>Dumbo New York</caption>
+        </div>
+                <div class="col2">
+                        <img src="images/DUMBO_NYC.jpg" alt="Famous Bridge Shot in Dumbo NYC" height="250px" width="250px"style="max-width:100%;height:auto">
+                        <caption>NYC</caption>
+                    </div>
+                        <div class="col3">
+                            <img src="images/Bridge_NYC.jpg" alt="Brdige shot above the water connecting to Manhatten" height="250px" width="250px"style="max-width:100%;height:auto">
+                            <caption>Sunny Side Manhatten</caption>
+                        </div>
+
+        <div class="col4">
+            <img src="images/NYC_Heli.jpg" alt="Foot out of Helicopter flying over Central Park" height="250px" width="250px"style="max-width:100%;height:auto">
+            <caption>Birds Eye view</caption>
+         </div>
+                <div class="col5">
+                    <img src="images/Hotel_Vegas.jpg" alt="Hotel Vegas sign in Austin Texas" height="250px" width="250px"style="max-width:100%;height:auto">
+                    <caption>Hotel Vegas</caption>
+                </div>
+                    <div class="col6">
+                        <img src="images/Joshua_Tree.jpg" alt="Skull Rocck with moon view in Joshua Tree National Park" height="250px" width="250px"style="max-width:100%;height:auto">
+                        <caption>Skull Rock</caption>
+                    </div>
+                    <div class="col7">
+                        <img src="images/Salton_Sea.jpg" alt="Spare tires left in deserted salton sea in California" height="250px" width="250px"style="max-width:100%;height:auto">
+                        <caption>Salton Sea</caption>
+                    </div>
+                    <div class="col8">
+                        <img src="images/Salvation_mountain.jpg" alt="Painted art car in Salvation Mountain" height="250px" width="250px"style="max-width:100%;height:auto">
+                        <caption>Salvation Mountain</caption>
+                    </div>
+
+
+               
+             </div>
+             <!--ARTICLE ABOUT MY IMAGES AND DESIRES FOR MORE-->
+            
+            <article>
+                Most of these images I took when traveling. Whenever I go to iconic places I bring the camera with all the gear. I have started developing some film from these trips,
+                but unfortunatley I had no clue the scanners at the airport wipes the film leading to bad production. I do also bring my drone with me wherever I go. However most places
+                around the country prohibit the use of them and you need special licenses in each state to legally fly them. However when I was in California at laguna beach I decided to 
+                just capture one video for my own pleasure. Please don't tell anyone! 
+                <h1 class="article">Laguna beach</h1>
+                <video controls width="1000px" height="600px" style="max-width:100%;height:auto">
+                    <source src="videos/Laguna Beach.mp4">
+                    <source src="videos/Laguna Beach.webm">
+                    <source src="">
+                    <track src="videos/Laguna Beach.mp4" kind="subtitles" srclang="en" label="English">
+                </video>
+            </article>
+</main>
+        <footer>
+            <p>&copy;2022-2023-Richard Depanfilis. All rights reserved.</p>
+     </footer>
+
+
+    </body>
+</html>
